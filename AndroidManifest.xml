@@ -34,7 +34,8 @@
 
     <application android:label="@string/app_name"
                  android:icon="@drawable/icon"
-                 android:allowBackup="true">
+                 android:allowBackup="true"
+                 android:theme="@style/Theme.Wireleaf">
         <!--<activity android:name="com.google.zxing.client.androidtest.ZXingTestActivity"-->
                   <!--android:label="@string/app_name"/>-->
         <!--<activity android:name="com.google.zxing.client.androidtest.BenchmarkActivity"-->
