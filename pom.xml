@@ -27,6 +27,15 @@
     <version>2.3.0</version>
   </parent>
 
+    <dependencies>
+        <!-- Librería para encriptar/desencriptar strings -->
+        <dependency>
+            <groupId>org.jasypt</groupId>
+            <artifactId>jasypt</artifactId>
+            <version>1.9.1</version>
+        </dependency>
+    </dependencies>
+
   <build>
     <plugins>
       <plugin>
